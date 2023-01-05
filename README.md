@@ -1,1 +1,3 @@
 # Funny
+
+**Para projetos divertidos**
