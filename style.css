@@ -1,0 +1,73 @@
+*{
+  margin:0% ;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'cursive' ;
+  color: #333;
+  font-size: 100%;
+  display: inline-block;
+}
+
+header{
+  padding: 1rem;
+  text-align: justify ;
+  font-size: 200%;
+}
+
+header::first-letter {
+  font-size: 3rem;
+ /* font-weight:bolder;*/
+  color: rgb(0, 0, 0);
+}
+
+.container{
+  margin: 0%;
+    overflow: auto;
+}
+
+#my-form{
+  padding: 200px 500px; 
+  background: #fff ; 
+  display: inline-block;
+}
+
+#my-form button[type='submit']{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 10px solid rgb(255, 0, 0);
+}
+
+.btn{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+  width: 150px;
+  height: 100px;
+  padding: 1%;
+  border: 1px solid #ccc;
+  background: #bb264993;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.btn2{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+  width: 150px;
+  height: 100px;
+  padding: 1%;
+  border: 1px solid #ccc;
+  background: #f00;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+
+.btn:hover{
+  background: #bb2649;
+}
